@@ -8,7 +8,7 @@
 <body>
 <div align="center">
 	<br>
-    <iframe src="https://diezaztek.github.io/Diezaztek-Components/summary.svg" title="Summary"></iframe>
+    <img src="https://diezaztek.github.io/Diezaztek-Components/summary.svg">
 	<br>
 </div>
 
