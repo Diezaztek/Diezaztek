@@ -8,7 +8,7 @@
 <body>
 <div align="center">
 	<br>
-    <img src="https://diezaztek.github.io/Diezaztek-Components/summary.svg">
+    <img src="./components/summary-table.svg">
 	<br>
 </div>
 
