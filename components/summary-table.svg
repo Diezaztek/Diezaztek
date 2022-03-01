@@ -15,14 +15,14 @@
                     height: 55px;
                 }
                 .name {
-                    width: 250px;
+                    width: 210px;
                     text-align: left;
                     font-weight: bold;
                     font-size: 25px;
                     font-family: Arial, sans-serif;
                 }
                 .pokeball {
-                    width: 250px;
+                    width: 210px;
                     text-align: right;
                     padding-right: 5px;
                 }
@@ -56,7 +56,7 @@
                 }
                 .purpleCard {
                     height: 40px;
-                    width: 240px;
+                    width: 200px;
                     color:white;
                     background-color: #8571b1;
                     border-radius: 7px;
@@ -69,7 +69,7 @@
                 }
                 .blueCard {
                     height: 40px;
-                    width: 240px;
+                    width: 200px;
                     color:white;
                     background-color: #5abfc0;
                     border-radius: 7px;
@@ -126,7 +126,7 @@
                 <tr class="info-category">
                     <td class="space"></td>
                     <td class="info-label">Degree</td>
-                    <td class="info-value">Enginering in Informatics / MS in Data Science</td>
+                    <td class="info-value">BEng Informatics / MS in Data Science</td>
                     
                 </tr>
                 <tr class="info-category">
