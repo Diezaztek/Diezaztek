@@ -15,23 +15,23 @@
                     height: 55px;
                 }
                 .name {
-                    width: 150px;
+                    width: 300px;
                     text-align: left;
                     font-weight: bold;
                     font-size: 25px;
                     font-family: Arial, sans-serif;
                 }
                 .pokeball {
-                    width: 250px;
+                    width: 300px;
                     text-align: right;
                     padding-right: 5px;
                 }
-                .infoCategory {
+                .info-category {
                     background: #ffffff;
                     height: 40px;
                     border-bottom: 2px solid #efefef;
                 }
-                .infoLabel {
+                .info-label {
                     
                     text-transform: uppercase;
                     font-weight: bold;
@@ -39,17 +39,46 @@
                     font-family: Arial, sans-serif;
                     padding-left: 20px;
                 }
-                .infoValue {
+                .info-value {
                     font-size: 12px;
                     font-family: Arial, sans-serif;
-                }
-                .summaryCards {
-                    background: #ffffff;
-                    height: 85px;
                 }
                 .space {
                     border-style: hidden;
                     padding-left: 20px;
+                }
+                .summary-cards {
+                    background: #ffffff;
+                    height: 85px;
+                }
+                .skill-cards{
+                    text-align: center;
+                }
+                .purpleCard {
+                    height: 40px;
+                    width: 280px;
+                    color:white;
+                    background-color: #8571b1;
+                    border-radius: 7px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                    font-family: Arial, sans-serif;
+                    border: 1.5px solid #000;
+                }
+                .blueCard {
+                    height: 40px;
+                    width: 280px;
+                    color:white;
+                    background-color: #5abfc0;
+                    border-radius: 7px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                    font-family: Arial, sans-serif;
+                    border: 1.5px solid #000;
                 }
 				
 			</style>
@@ -94,22 +123,30 @@
                         </svg>
                     </td>
                 </tr>
-                <tr class="infoCategory">
+                <tr class="info-category">
                     <td class="space"></td>
-                    <td class="infoLabel">Degree</td>
-                    <td class="infoValue">Enginering in Informatics / Master in Data Science</td>
+                    <td class="info-label">Degree</td>
+                    <td class="info-value">Enginering in Informatics / Master in Data Science</td>
                     
                 </tr>
-                <tr class="infoCategory">
+                <tr class="info-category">
                     <td class="space"></td>
-                    <td class="infoLabel">Experience</td>
-                    <td class="infoValue">4.5 years</td>
+                    <td class="info-label">Experience</td>
+                    <td class="info-value">4.5 years</td>
                     
                 </tr>
-                <tr class="summaryCards">
+                <tr class="summary-cards">
                     <td class="space"></td>
-                    <td class="infoLabel">Degree</td>
-                    <td class="infoValue">Enginering in Informatics</td>
+                    <td class="skill-cards">
+                        <div class="purpleCard"> 
+                            Backend
+                        </div>
+                    </td>
+                    <td class="skill-cards">
+                        <div class="blueCard"> 
+                            Artificial Intelligence
+                        </div>
+                    </td>
                     
                 </tr>
             </table>
