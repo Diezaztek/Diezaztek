@@ -6,8 +6,8 @@
                     margin-left: auto;
                     margin-righ: auto;
                     background-color: #EF3E38;
-                    border-radius: 7px;
-                    border: 5px solid #4D141A;
+                    border-radius: 25px;
+                    border: 15px solid #4D141A;
                     display: box;
                     
                 }
