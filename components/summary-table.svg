@@ -12,12 +12,12 @@
                     
                 }
                 .screen {
-                    margin-left: 25px;
-                    margin-righ: 25px;
+                    margin-right: 25px;
+                    margin-left: 15px;
                     margin-bottom: 25px;
                     background-color: #9DF3F1;
-                    border-radius: 7px;
-                    border: 1.5px solid #000;
+                    border-radius: 15px;
+                    border: 5px solid #000;
                     display: box;
                     width: 700px;
                 }
